@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Ubuntu";
+}
+
+body{
+    background-color: rgb(40, 89, 203)
+}
+
+h2 {
+    text-align: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    border-radius: 10px;
+    margin-top: 180px;
+    background-color: white;
+    padding: 15px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    gap: 30px;
+}
+
+.form-registro {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.form-registro input {
+    padding: 5px;
+    height: 25px;
+    width: 150px;
+    font-size: 16px;
+}
+
+.form-registro label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form button {
+    margin-top: 30px;
+    height: 35px;
+    width: 220px;
+    font-size: 18px;
+    background-color: rgb(40, 89, 203);
+    color: white;
+    border-style: none;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: rgb(20, 53, 131);
+    cursor: pointer;
+}
+
+
+
